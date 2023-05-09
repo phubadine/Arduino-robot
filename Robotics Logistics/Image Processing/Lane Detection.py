@@ -1,3 +1,5 @@
+#Coding By ARIS KKU ==> P'nest, P'oil
+
 import sensor, image, time, lcd
 import math
 import utime
