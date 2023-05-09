@@ -1,12 +1,8 @@
+//Hand = 4               180หุบ
+//FrontBack = 3          ค่าน้อย = หลัง | ค่ามาก = หน้า
+//UpDown =  2            ค่ามาก = ขึ้น     60
+//Base = 1
 
-                                              
-                                              
-                                              
-                                              
-                                              //Hand = 4               180หุบ
-                                              //FrontBack = 3          ค่าน้อย = หลัง | ค่ามาก = หน้า
-                                              //UpDown =  2            ค่ามาก = ขึ้น     60
-                                              //Base = 1
 void Hand(int degree) {
   servo(4, degree);
 }
@@ -29,5 +25,4 @@ void defult() {
   Frontback(70);
   Updown(70);
   Base(90);
-
 }
